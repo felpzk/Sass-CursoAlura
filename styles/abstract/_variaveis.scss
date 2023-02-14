@@ -1,0 +1,17 @@
+//fontes
+
+$fonte: 'Roboto', sans-serif;
+
+// cores
+
+$cor-primaria: #495371;
+$cor-secundaria: #74959a;
+$cor-terciaria: #F1E0AC ;
+
+// tamanho dos texto
+
+$tamanho-do-texto: 3rem;
+
+@mixin bg-grad ($cores...) {
+    background: linear-gradient(to left, $cores);
+}
